@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bella Donna Pizzaria</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Cabeçalho -->
+    <header>
+        <div class="container">
+            <h1>Bella Donna Pizzaria</h1>
+            <nav>
+                <ul>
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#menu">Cardápio</a></li>
+                    <li><a href="#sobre">Sobre Nós</a></li>
+                    <li><a href="#contato">Contato</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Seção Home -->
+    <section id="home" class="hero">
+        <div class="container">
+            <h2>Bem-vindo à Bella Donna Pizzaria</h2>
+            <p>A melhor pizza da cidade!</p>
+            <button onclick="scrollToSection('menu')">Veja nosso Cardápio</button>
+        </div>
+    </section>
+
+    <!-- Seção Cardápio -->
+    <section id="menu" class="menu">
+        <div class="container">
+            <h2>Cardápio</h2>
+            <div class="pizza-item">
+                <img src="https://via.placeholder.com/150 " alt="Pizza Margherita">
+                <h3>Margherita</h3>
+                <p>Tomate, queijo mussarela e manjericão.</p>
+                <span>R$ 39,90</span>
+            </div>
+            <div class="pizza-item">
+                <img src="https://via.placeholder.com/150 " alt="Pizza Pepperoni">
+                <h3>Pepperoni</h3>
+                <p>Queijo mussarela e pepperoni.</p>
+                <span>R$ 45,90</span>
+            </div>
+            <div class="pizza-item">
+                <img src="https://via.placeholder.com/150 " alt="Pizza Calabresa">
+                <h3>Calabresa</h3>
+                <p>Calabresa, cebola e queijo mussarela.</p>
+                <span>R$ 42,90</span>
+            </div>
+        </div>
+    </section>
+
+    <!-- Seção Sobre Nós -->
+    <section id="sobre" class="about">
+        <div class="container">
+            <h2>Sobre Nós</h2>
+            <p>
+                Na Bella Donna Pizzaria, nossa paixão por pizzas começou há mais de 20 anos. 
+                Usamos ingredientes frescos e receitas tradicionais italianas para garantir que cada pedaço seja delicioso.
+            </p>
+        </div>
+    </section>
+
+    <!-- Seção Contato -->
+    <section id="contato" class="contact">
+        <div class="container">
+            <h2>Entre em Contato</h2>
+            <form>
+                <input type="text" placeholder="Seu Nome" required>
+                <input type="email" placeholder="Seu Email" required>
+                <textarea placeholder="Sua Mensagem"></textarea>
+                <button type="submit">Enviar</button>
+            </form>
+        </div>
+    </section>
+
+    <!-- Rodapé -->
+    <footer>
+        <div class="container">
+            <p>&copy; 2023 Bella Donna Pizzaria. Todos os direitos reservados.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
